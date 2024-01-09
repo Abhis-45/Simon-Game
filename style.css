@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: rgb(163, 40, 40);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+        background-color: rgb(170, 164, 164);
+        height: 640px;
+        width: 700px;
+        margin: 2.5rem 0 0 27rem;
+        text-align: center;
+        padding-top: 5px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub{
+    height: 200px;
+    width: 200px;
+    border: 7px black solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.red{
+    background-color: rgba(122, 11, 11, 0.788);
+    color: rgb(119, 35, 35);
+}
+
+.yellow{
+    background-color: rgba(185, 185, 22, 0.842);
+    color: rgba(129, 129, 11, 0.459);
+}
+
+.green{
+    background-color: rgba(27, 110, 27, 0.733);
+    color: rgba(28, 83, 28, 0.616);
+}
+
+.blue{
+    background-color: rgba(25, 25, 82, 0.884);
+    color: rgba(20, 20, 83, 0.89);
+}
+
+.flash{
+    background-color: white;
+    color: white;
+}
+
+h2{
+    display: inline;
+}
